@@ -40,7 +40,7 @@ export function activate(context: vscode.ExtensionContext) {
 
         // TODO: read config file, if present
         // TODO: automate generating the right command to run from parameters in the file
-        const cp = require('child_process')
+        const cp = require('child_process');
         if( vscode.workspace.workspaceFolders )
         {
             var folder = vscode.workspace.workspaceFolders[0];
