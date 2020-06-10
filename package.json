@@ -22,6 +22,10 @@
 			{
 				"command": "extension.selectTargets",
 				"title": "clang-build: select targets"
+			},
+			{
+				"command": "extension.selectBuildType",
+				"title": "clang-build: select build type"
 			}
 		]
 	},
