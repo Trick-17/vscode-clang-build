@@ -1,4 +1,5 @@
 import * as vscode from 'vscode';
+import { ProjectExplorer } from './projectExplorer';
 
 const child_process = require('child_process');
 
@@ -191,6 +192,8 @@ export async function activate(context: vscode.ExtensionContext) {
     status_clang_build_targets.text = `[all]`;
     status_clang_build_targets.show();
     context.subscriptions.push(status_clang_build_targets);
+
+    new ProjectExplorer(context, clang_build);
 
     outChannel.appendLine('vscode clang-build extension activated');
 }

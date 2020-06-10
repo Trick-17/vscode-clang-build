@@ -41,7 +41,7 @@
 			"project-explorer": [
 				{
 					"id": "project-explorer-projects",
-					"name": "Projects"
+					"name": "[[project]]"
 				},
 				{
 					"id": "project-explorer-target-details",
