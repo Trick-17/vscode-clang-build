@@ -27,6 +27,37 @@
 				"command": "extension.selectBuildType",
 				"title": "clang-build: select build type"
 			}
+		],
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"id": "project-explorer",
+					"title": "Project Explorer",
+					"icon": "resources/activity.svg"
+				}
+			]
+		},
+		"views": {
+			"project-explorer": [
+				{
+					"id": "project-explorer-projects",
+					"name": "Projects"
+				},
+				{
+					"id": "project-explorer-target-details",
+					"name": "Target details"
+				},
+				{
+					"id": "project-explorer-tests",
+					"name": "Tests"
+				}
+			]
+		},
+		"viewsWelcome": [
+			{
+				"view": "project-explorer",
+				"contents": "No project found"
+			}
 		]
 	},
 	"scripts": {
